@@ -12,3 +12,5 @@
 xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value`
 
 ###  6. Observe that only 5 requests are processed at a time, and the rest are rejected.
+
+###  7. To stop the server, curl `http://localhost:8080/shutdown` in the terminal where the server is running.
